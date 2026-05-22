@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MajengoSmart Pro – Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 50px 60px;
+      text-align: center;
+      max-width: 480px;
+      width: 90%;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+    }
+    .logo {
+      font-size: 56px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      color: #fff;
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    p {
+      color: rgba(255,255,255,0.6);
+      font-size: 15px;
+      margin-bottom: 36px;
+      line-height: 1.6;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 40px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 8px 24px rgba(79,70,229,0.4);
+      cursor: pointer;
+      border: none;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(79,70,229,0.5);
+    }
+    .note {
+      margin-top: 24px;
+      color: rgba(255,255,255,0.35);
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">🏢</div>
+    <h1>MajengoSmart Pro</h1>
+    <p>Property Management Portal<br>Click below to open your dashboard</p>
+    <button class="btn" onclick="openPortal()">🚀 Open Portal</button>
+    <p class="note">Powered by MajengoSmart Property Management</p>
+  </div>
+  <script>
+    function openPortal() {
+      window.location.href = 'kenya-tms-complete.html';
+    }
+  </script>
+</body>
+</html>
